@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo para selfie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tire sua selfie</h1>
+        <video id="camera" autoplay></video>
+        <button id="capturar">Aperte aqui para tirar foto</button>
+        <button id="foto_pb">Aperte aqui para tirar foto no filtro PB</button>
+        <button id="ligar_camera">Ligue a câmera</button>
+        <button id="desligar_camera">Desligue a câmera</button>
+
+        <canvas id="foto"></canvas>
+        <div class="album" id="album">
+            <img id="foto1" class="albumfoto" alt="Foto 1" />
+            <img id="foto2" class="albumfoto" alt="Foto 2" />
+            <img id="foto3" class="albumfoto" alt="Foto 3" />
+            <img id="foto4" class="albumfoto" alt="Foto 4" />
+            <img id="foto5" class="albumfoto" alt="Foto 5" />
+            <img id="foto6" class="albumfoto" alt="Foto 6" />
+            <img id="foto7" class="albumfoto" alt="Foto 7" />
+            <img id="foto8" class="albumfoto" alt="Foto 8" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

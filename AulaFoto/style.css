@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(214, 113, 180);
+    margin: 0;
+    padding: 120px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+canvas {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-family: 16px;
+    background-color: rgb(226, 58, 148);
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d45ab0;
+}
+
+
+.album {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.albumfoto {
+    width: 23%; 
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    object-fit: cover; 
+    box-sizing: border-box; 
+}
